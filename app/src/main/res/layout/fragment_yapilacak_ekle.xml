@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/yapilacakEkle"
+    tools:context=".YapilacakEkle">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Yapılacak"
+        android:textColor="#7FBFF3"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/yapilacak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:inputType="textMultiLine"
+        android:lines="3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Etiketler"
+        android:textColor="#7FBFF3"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/etiket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnTarih"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:backgroundTint="#7FBFF3"
+            android:text="Tarih" />
+        <TextView
+            android:id="@+id/textViewTarih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_margin="12dp"
+            android:text=""/>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnSaat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:backgroundTint="#7FBFF3"
+            android:text="Saat" />
+    <TextView
+        android:id="@+id/textViewSaat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_margin="12dp"
+        android:text=""/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HatirlatmaAppSon</string>
+    <string name="app_name1">Hatırlatma Ekle</string>
+    <string name="sync_pref">Sync</string>
+    <string name="sync_pref_summary">Get your photos,videos ....</string>
+
+    <string name="pref_syncConnectionType">Sync Connection Type</string>
+    <string name="pref_syncConnectionType_dialog_title">Perform sync using</string>
+    <string name="pref_syncConnectionType_default_value">WiFi</string>
+    <string name="pref_syncConnectionType_summary">WiFi</string>
+
+
+</resources>
